@@ -1,7 +1,7 @@
 {
   "bg": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0612/tndJrpwuU3fCIdr8TlJxWSCZ.png",
-  "title": "Artur Quiz",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "title": "Quiz - Star Wars",
+  "description": "Teste os seus conhecimentos sobre a Saga Guerra nas Estrelas",
   "questions": [
     {    
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
