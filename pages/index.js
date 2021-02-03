@@ -2,12 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer/index';
 import GitHubCorner from '../src/components/GitHubCorner/index';
 import QuizBackground from '../src/components/QuizBackground/index';
 import QuizLogo from '../src/components/QuizLogo/index';
+import Input from '../src/components/Input/index';
+import Button from '../src/components/Button/index';
 
 /* const BackgroundImage = styled.div`
   background-image: url(${db.bg});
@@ -15,7 +18,8 @@ import QuizLogo from '../src/components/QuizLogo/index';
   background-size: cover;
   background-position: center;
 `; */
-export const QuizContainer = styled.div`
+
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -34,7 +38,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>ArturQuiz</title>
+        <title>{db.title}</title>
         <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
         <meta name="description" content="Descriçao do ArturQuiz" />
         <meta property="og:type" content="website" />
@@ -47,35 +51,29 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Quiz Star Wars</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Que tal testar seus conhecimentos sobre a Saga Star Wars</p>
+            <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
-
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do React');
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value);
-
-                  // name = infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
                 placeholder="Nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {' '}
-
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
+
         <Widget>
           <Widget.Header>
             <h1>Quiz da Galera</h1>
