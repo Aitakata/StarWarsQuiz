@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
@@ -8,33 +9,25 @@ import styled from 'styled-components';
 import db from '../../db.json';
 import Widget from '../../src/components/Widget';
 import QuizLogo from '../../src/components/QuizLogo';
+import QuizContainer from '../../src/components/QuizContainer';
 import QuizBackground from '../../src/components/QuizBackground';
 import Footer from '../../src/components/Footer';
 import GitHubCorner from '../../src/components/GitHubCorner';
 
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
-
 function Image({ src, indice }) {
   const key = '191e83';
+  const [width, height] = [852, 480];
   const thumbnail = `
 https://api.screenshotmachine.com?key=${key}&url=${src}&dimension=1024x768&cacheLimit=2
   `;
 
   return (
     <a href={src} style={{ display: 'inline-block', fontSize: '0' }}>
-      <img
+      <NextImage
         style={{ width: '100%', height: '250px', objectFit: 'cover' }}
-        width="1024"
-        height="768"
+        width={width}
+        height={height}
+        unoptimized
         src={thumbnail}
       />
     </a>

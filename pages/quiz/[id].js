@@ -2,22 +2,21 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import QuizScreen from '../../src/screens/Quiz';
+import QuizScreen from '../../src/Screens/Quiz';
 
-export default function QuizDaGaleraPage({dbExterno}) {
+export default function QuizDaGaleraPage({ dbExterno }) {
   // const [db, setDb] React.useState({})
   // React.useEffect(() => {
   // });
   return (
-    <ThemeProvider theme={dbExterno.theme}>
-      <QuizScreen
-        externalQuestions={dbExterno.questions}
-        externalBg={dbExterno.bg}
-      />
-    </ThemeProvider>
-    // {/* <pre style={{ color: 'black' }}>
-    //   {JSON.stringify(dbExterno.questions, null, 4)}
-    // </pre> */}
+    <div>
+      <ThemeProvider theme={dbExterno.theme}>
+        <QuizScreen
+          externalQuestions={dbExterno.questions}
+          externalBg={dbExterno.bg}
+        />
+      </ThemeProvider>
+    </div>
   );
 }
 
@@ -32,7 +31,7 @@ export async function getServerSideProps(context) {
         }
         throw new Error('Falha em pegar os dados');
       })
-      .then((respostaConvertidaEmObjeto) => respostaConvertidaEmObjeto)
+      .then((respostaConvertidaEmObjeto) => respostaConvertidaEmObjeto);
       // .catch((err) => {
       //   // console.error(err);
       // });
@@ -44,7 +43,7 @@ export async function getServerSideProps(context) {
         dbExterno,
       },
     };
-  } catch(err) {
+  } catch (err) {
     throw new Error(err);
   }
 }

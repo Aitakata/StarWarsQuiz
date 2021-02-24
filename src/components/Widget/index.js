@@ -48,6 +48,12 @@ Widget.Content = styled.div`
   }
 `;
 
+Widget.Scroll = styled.div`
+  padding: 2.5px 5px 2.5px 0px ;
+  height:200px;
+  overflow-y: auto;
+`;
+
 Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;

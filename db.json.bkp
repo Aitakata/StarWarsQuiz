@@ -1,0 +1,219 @@
+{
+  "bg": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0612/tndJrpwuU3fCIdr8TlJxWSCZ.png",
+  "title": "Quiz - Star Wars",
+  "description": "Você é fã de Guerra nas Estrelas? Teste os seus conhecimentos sobre a Saga ...",
+  "questions": [
+    {    
+      "image": "https://static.quizur.com/i/b/553b0a133f9665.08335114553b0a1303c501.54740602.jpg",
+      "title": "Em qual planeta Anakin luta contra Obi Wan Kenobi?",
+      "description": "Essa é pra aquecer",
+      "answer": 0,
+      "alternatives": [
+        "Mustafar",
+        "Dagobah",
+        "Tattoine",
+        "Coruscant"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0afe3f9227.05930030553b0afe2ed986.39803978.jpg",
+      "title": "Qual o nome do antigo mestre de Obi Wan?",
+      "description": "Vamos ver se você é um mestre...",
+      "answer": 2,
+      "alternatives": [
+         "Yoda",
+         "Mace Windu",
+         "Qui Gon Jinn",
+         "Dookan"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0bd063b8f5.11641149553b0bd04c69e7.72887039.jpg",
+      "title": "Qual a cor do sabre dos Sith?",
+      "description": "E agora? Você sabe?",
+      "answer": 0,
+      "alternatives": [
+        "Vermelho",
+        "Verde",
+        "Azul",
+        "Roxo"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0c471e0c73.82773573553b0c4709b509.63235005.jpg",
+      "title": "Qual o nome do andróide que sempre aparece em todos os filmes?",
+      "description": "Pergunta fácil em!",
+      "answer": 1,
+      "alternatives": [
+         "C-3D2",
+         "C-3PO",
+         "R2-PO",
+         "R2-D2"
+      ]
+    },
+    
+    {
+      "image": "https://static.quizur.com/i/b/553b0c0e059e53.19392089553b0c0deb2e66.68937017.jpg",
+      "title": "O que Luke e Léia são?",
+      "answer": 3,
+      "alternatives": [
+         "Namorados",
+         "Amigos",
+         "Primos",
+         "Irmãos"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0cea2f1839.16234711553b0cea1f9d31.72841181.png",
+      "title": "Quantos braços tem o General Grievous?",
+      "description": "Quero ver agora!",
+      "answer": 1,
+      "alternatives": [
+         "2 braços",
+         "4 braços",
+         "6 braços",
+         "8 braços"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0edc90c4b4.99737015553b0edc8314b6.28062927.jpg",
+      "title": "Qual a profissão de Boba Fett?",
+      "description": "Isso! Trabalho, job...  haha",
+      "answer": 3,
+      "alternatives": [
+         "Mercador",
+         "General",
+         "Jedi",
+         "Caçador de Recompensas"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0e70c96770.69643797553b0e70bbbd54.41769745.jpg",
+      "title": "Qual a relação entre Darth Vader e Anakin Shywalker?",
+      "description": "Cuidado! Tem pegadinha.",
+      "answer": 3,
+      "alternatives": [
+         "Primos",
+         "Tio e sobrinho",
+         "Pai e filho",
+         "Nenhuma das alternativas"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/553b0d20607be5.77120654553b0d203be767.52155341.jpg",
+      "title": "Qual o nome da mãe de Luke?",
+      "answer": 1,
+      "alternatives": [
+         "Satine",
+         "Padmé",
+         "Cordé",
+         "Shmi"
+      ]
+    },
+    {
+      "image": "https://img.quizur.com/f/img5ef0bcbe567197.59319895.jpg?lastEdited=1592835289",
+      "title": "Em que ano o filme: 'Star Wars Episódio IV: Uma Nova Esperança' foi lançado?",
+      "description": "Essa e mais difícil",
+      "answer": 1,
+      "alternatives": [
+         "1989",
+         "1977",
+         "1987",
+         "1978"
+      ]
+    }
+  ],
+  "external": [
+    "https://python-quiz.ermessonlima.vercel.app/",
+    "https://projeto-alura-quiz.andersonfroes.vercel.app/",
+    "https://disgust-quiz.arrivabeni.vercel.app/",
+    "https://lolzinquiz-git-main.bernardooficial.vercel.app/",
+    "https://quiz-react.brenoha.vercel.app/",
+    "https://aluraquizpokemon.cesarrobertopg.vercel.app/",
+    "https://aluraquiz.edlanioj.vercel.app/",
+    "https://doctor-who-quiz.emanuelpna.vercel.app/",
+    "https://imersao-react-nextjs.fallying.vercel.app/",
+    "https://pokequiz-imersao-next.felipeferreiradev.vercel.app/",
+    "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+    "https://quiz-games.gabrielwolf-dev.vercel.app/",
+    "https://flow-quiz.garubieru.vercel.app/",
+    "bloodsugarquiz.guilhermesanchess.vercel.app",
+    "https://aluraquiz-base.gustavo-mf.vercel.app/",
+    "https://internet-quiz.johnmaroeli.vercel.app/",
+    "https://aluraquiz-harrypotter.karinarovani.vercel.app",
+    "https://quiz-justiceleague.levi-magny.vercel.app/",
+    "https://avengersquiz.penadev.vercel.app/",
+    "https://digimon-quiz.raphael-gc.vercel.app/",
+    "https://my-aluraquiz.romulosramos.vercel.app/",
+    "https://tecno-quiz-684tkxmp3.vercel.app/",
+    "https://mastermindquiz.thiagodc1001.vercel.app",
+    "https://aluraquiz-wow.yuriramosc.vercel.app/",
+    "https://poderosochefaoquiz.admsilva.vercel.app/",
+    "https://quiz-ander.andermsilva.vercel.app",
+    "https://gotquiz-alura.andysteel.vercel.app/",
+    "https://theofficequiz.brunaguedes92.vercel.app/",
+    "https://imersao-react-next-alura.brunnosena.vercel.app/",
+    "https://meme-quiz.vercel.app/",
+    "https://claudioquiz.claudiostocco.vercel.app/",
+    "https://aluraquiz-rpg.danielmalka.vercel.app",
+    "https://alura-pokemon-quiz.daniloamsilva.vercel.app/",
+    "https://imersao-react-next.dayana-sog.vercel.app/",
+    "https://pinkfloyd-quiz.denismend.vercel.app/",
+    "https://aluraquiz.thmoreiracosta.vercel.app/",
+    "http://quiz.dgsdev.vercel.app/",
+    "https://rick-and-morty-quiz.douglasdiasr3.vercel.app/",
+    "https://python-quiz.ermessonlima.vercel.app/",
+    "https://tsquiz.esterfania.vercel.app/",
+    "https://sneaker-head-quiz.vercel.app/",
+    "https://alura-quiz-frontend-fischerafael.fischerafael.vercel.app/",
+    "https://divequiz.fncarneiro.vercel.app/",
+    "https://better-quiz.gabriel-github.vercel.app/",
+    "https://interquiz.giovanaandrade.vercel.app/",
+    "https://quiz-one-piece.henpassquesori.vercel.app/",
+    "https://css-tricquiz.henrfarias.vercel.app",
+    "https://ai-quiz.idcesares.vercel.app",
+    "https://aluraquiz-joaomeidson.vercel.app/",
+    "https://quiz-valorant.johnatanivini.vercel.app/",
+    "https://aluraquiz-coffee.leonardot07.vercel.app/",
+    "https://aluraquiz-halloween.lucaskuhn.vercel.app",
+    "https://mh-quiz.lucassperez.vercel.app/",
+    "https://aluraquiz-simpsons.vercel.app",
+    "https://aniquiz.mariobischoff.vercel.app",
+    "https://golden-state-warriors.murimessias.vercel.app/",
+    "https://aluraquiz-gastronomia.pedrohb88.vercel.app/",
+    "https://quiz-nextjs.psatler.vercel.app/",
+    "https://nextjsquiz.rafaelfachinelli.vercel.app",
+    "https://quiz.rafalmeida73.vercel.app",
+    "https://rp7quiz.vercel.app",
+    "https://quiz-contemplese.ricardoltt.vercel.app/",
+    "https://mando-quiz.ricardomogio.vercel.app/",
+    "https://aluraquiz-base.rodrigorrch.vercel.app/",
+    "https://shinquiz-git-main.renanshin.vercel.app/",
+    "https://aluraquiz-base.silsantana.vercel.app",
+    "https://show-do-milhao.thcarvalho.vercel.app/",
+    "https://miziaraquiz-nltdru7yr.vercel.app/",
+    "https://aluraquiz.thmoreiracosta.vercel.app/",
+    "https://pokemonquiz.tilnoene.vercel.app/",
+    "https://aluraquiz-css.tobiasmarion.vercel.app/",
+    "https://aluraquiz.vicbvs.vercel.app/",
+    "https://aluraquiz-nextjs-one.vercel.app/",
+    "https://1sec-quiz.victoroda.vercel.app/",
+    "https://aluraquiz.victorpremoli.vercel.app/",
+    "https://sneaker-quiz.viiniciusgs.vercel.app/",
+    "https://aleatorio-quiz.viniciud.vercel.app/",
+    "https://quizlegal.vitorsoratto.vercel.app/",
+    "https://gintama-quiz-mxlpsn1zk.vercel.app/",
+    "https://stranger-quizz.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#0d47a1",
+      "secondary": "29b6f6",
+      "mainBg": "#171b35",
+      "contrastText": "#B4F8C8",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+} 
